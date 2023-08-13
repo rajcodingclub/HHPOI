@@ -62,7 +62,7 @@ header ul li a:hover{
     
 }
 }
-@media(max-width: 909px){
+@media(max-width: 1024px){
         nav #icon{
             display:block;
             margin-top:5px;
