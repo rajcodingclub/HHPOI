@@ -43,7 +43,7 @@ header ul li a:hover{
 }
 @media(max-width:1024px){
     nav ul{
-        margin:25px 20px;
+        margin:25px 0px;
     }
     nav ul li{
         margin: 5px;
