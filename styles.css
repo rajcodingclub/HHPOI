@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:black;
+    color:white;
+    display: flex;
+    border: 5px solid white;
+}
+header p{
+    margin: 20px 20px 20px 50px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(240, 5, 161);
+}
+nav ul{
+    float: right;
+    text-align: top;
+    margin: 40px 0px 40px 300px;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+    margin: 50px 15px;
+    padding: 50px 0px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+header ul li a:hover{
+    color: black;
+    background: rgb(240, 5, 161);
+    border-radius: 10px;
+    box-shadow: 0 0 50PX white;
+}
+#icon{
+    display:none;
+}
+@media(max-width:1024px){
+    nav ul{
+        margin:25px 70px;
+    }
+    nav ul li{
+        margin: 5px;
+        padding: 5px;
+    }
+    nav ul li a{
+        padding: 5px;
+    }
+}
+@media(max-width:1024px){
+    header ul li{
+    list-style: none;
+    display: inline;
+    margin: 30px 5px;
+    padding: 5px 0px;
+    
+}
+}
+@media(max-width: 909px){
+        nav #icon{
+            display:block;
+            margin-top:5px;
+            margin-left:40px;
+        }
+        nav ul{
+            position:fixed;
+            width: 100%;
+            height: 100vh;
+            top:50px;
+            left:-100%;
+            text-align:center;
+            background: #95b7ff;
+            display:block;
+            margin:50px 0;
+            transition:all .5s;
+        }
+        nav ul li{
+            display:block;
+        }
+        nav ul.show{
+            left:0;
+        }
+    }
+header .logo img{
+    width:80px;
+    margin: 10px 0px 0px 20px;
+    border-radius: 140px;
+    display: inline;
+}
+photo img{
+    width: 1000px;
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/1002415624/photo/new-delhi-city-in-daytime.jpg?s=612x612&w=0&k=20&c=eZkR0veckRgWRSCkBEIINfVS_aElRO7i3sFOzH-ON-A=');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin-bottom: 0px;
+}
+.photo{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 100px;
+    color: rgb(124, 0, 0);
+}
+footer{
+    background: black;
+    color: white;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+}
+.data,table,th,td{
+    border-collapse: collapse;      
+}
+.log{
+    border: none;
+    background-color: rgb(209, 243, 243);
+    margin-left: 36%;
+    margin-top: 60px;
+}
+.submit{
+    text-align: right;
+    
+}
+footer i{
+    margin: 20px;
+}
+footer i:hover{
+    background-color: rgb(255, 251, 9);
+}
+.submenu{
+    display: none;
+}
+#ab:hover .submenu{
+    display: block;
+    position: absolute;
+    background: palevioletred;
+    margin: 15px;
+    margin-left: -15px;
+}
+.num{
+    padding: 20px;
+}
+#ab:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+#ab:hover .submenu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 10x dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+form{
+    margin: 40px;
+    border: 5px solid red;
+    display: inline-block;
+    background-color: rgb(130, 207, 194);
+    margin-left: 30%;
+}
+form lable,input{
+    margin: 7px;
+    padding: 5px;
+}
+.lab{
+    margin: 20px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hp img{
+      width: 250px;
+      height: 200px;
+      border: 5px solid rgb(155, 14, 155);
+      margin: 20px 2px;
+}
+footer p,h1{
+    margin-right: 150px;
+}
