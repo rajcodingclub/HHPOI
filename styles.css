@@ -41,7 +41,7 @@ header ul li a:hover{
 #icon{
     display:none;
 }
-@media(max-width:909px){
+@media(max-width:1024px){
     nav ul{
         margin:25px 0px;
     }
@@ -53,7 +53,7 @@ header ul li a:hover{
         padding: 5px;
     }
 }
-@media(max-width:909px){
+@media(max-width:1024px){
     header ul li{
     list-style: none;
     display: inline;
